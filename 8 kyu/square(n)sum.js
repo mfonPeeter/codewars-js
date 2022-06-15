@@ -17,7 +17,7 @@ function squareSum(numbers) {
 
 console.log(squareSum([1, 2, 2], 5));
 
-// Best Practices
+// First Best Practices
 function squareSum(numbers) {
   return numbers.reduce(function (sum, n) {
     return n * n + sum;
