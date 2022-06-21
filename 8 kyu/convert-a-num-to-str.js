@@ -6,8 +6,16 @@
 
 // Examples:
 // 123 --> "123"
-999 --> "999"
+// 999 --> "999"
+
+// My Solution
 
 function numberToString(num) {
   return String(num);
+}
+
+// First Best Pracitices
+
+function numberToString(num) {
+  return num.toString();
 }
